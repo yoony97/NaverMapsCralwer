@@ -31,7 +31,7 @@ class NaverMapsCralwer:
 
     def __load_config__(self, config_path):
         with open(config_path, 'r') as file:
-            self.config = json.load(file)['selectors']
+            self.config = json.load(file)
             
     def close(self):
         self.driver.quit()
@@ -286,6 +286,8 @@ class NaverMapsCralwer:
                 logger.debug('마지막 업체가 인식되지 않았거나 리스트가 비어 있습니다.')
                 break            
     
+        logger.info('[데이터 수집 완료]\n소요 시간 :', time.time() - start)
+
 if __name__ == '__main__':
     crawler = NaverMapsCralwer('인테리어', './chromedriver.exe', config_path='./config.json', headless=False)
     crawler.crawling()

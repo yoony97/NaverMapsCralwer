@@ -1,24 +1,22 @@
 {
-    "selectors": {
-      "search_input": "div.input_box > input.input_search",
-      "shop_list": "li.VLTHu",
-      "page_list": ".zRM9F> a",
-      "shop_names": ".YwYLL",
-      "shop_types": ".YzBgS",
-      "address_button": ".lWwyx > a",
-      "address_info": "div> .zZfO1",
-      "zoom_out": "button.btn_widget_zoom.zoom_out",
-      "zoom_state": "div.wrapper-outer > div > div > input",
-      "search_in_map": "body > button",
-      "body" : "body",
-      "search_frame" : "searchIframe",
-      "shop_extend": "div.qbGlu",
-      "shop_frame": "entryIframe",
-      "rating": "div.dAsGb",
-      "review_tap": "veBoZ",
-      "review_extend": "dP0sq",
-      "review": "MHaAm",
-      "review_check": "div.IUbn3 > a"
-    }
-  }
+    "search_input": "div.input_box > input.input_search",
+    "shop_list": "li.VLTHu",
+    "page_list": ".zRM9F> a",
+    "shop_names": ".YwYLL",
+    "shop_types": ".YzBgS",
+    "address_button": ".lWwyx > a",
+    "address_info": "div> .zZfO1",
+    "zoom_out": "button.btn_widget_zoom.zoom_out",
+    "zoom_state": "div.wrapper-outer > div > div > input",
+    "search_in_map": "body > button",
+    "body" : "body",
+    "search_frame" : "searchIframe",
+    "shop_extend": "div.qbGlu",
+    "shop_frame": "entryIframe",
+    "rating": "div.dAsGb",
+    "review_tap": "veBoZ",
+    "review_extend": "dP0sq",
+    "review": "MHaAm",
+    "review_check": "div.IUbn3 > a"
+}
   
